@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Zen Maru Gothic", "Hiragino Kaku Gothic proN", "メイリオ", sans-serif;
+  background-color: #f8f2f4;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  text-align: center;
+}
+
+.page-title {
+  color: #e4a0ac;
+  font-size: 2.8rem;
+  margin-bottom: 0px;
+}
+
+.main-image {
+  width: 250px;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+.form-card {
+  width: 220px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.form-group {
+  margin-bottom: 28px;
+}
+
+.label {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.radio-label {
+  font-size: 1.2rem;
+  margin: 0 6px;
+}
+
+input[type="date"] {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #e4a0ac;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.main-button,
+.back-button {
+  display: inline-block;
+  background-color: #e4a0ac;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 26px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.main-button:hover,
+.back-button:hover {
+  opacity: 0.9;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.event-card {
+  width: 320px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 22px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.event-card h2 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.event-date {
+  font-size: 1.2rem;
+  margin: 0 0 12px;
+}
+
+.event-detail {
+  margin: 0;
+  color: #777;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.back-area {
+  margin-top: 28px;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #666;
+}
